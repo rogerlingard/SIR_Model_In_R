@@ -1,3 +1,7 @@
+#References and links that heavily helped me in writing my code below
+#https://rpubs.com/choisy/sir
+#https://youtu.be/NHtHQACcO9Q?si=l35e1TcVzNFVwxky
+
 #Uncomment if you need these packages
 #install.packages("deSolve")
 #install.packages("reshape2")
