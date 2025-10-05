@@ -1,8 +1,6 @@
 #References and links that heavily helped me in writing my code below
 #https://rpubs.com/choisy/sir
 #https://youtu.be/NHtHQACcO9Q?si=l35e1TcVzNFVwxky
-install.packages("deSolve")
-install.packages("reshape2")
 library("deSolve")
 #this is a package that is used to help solve differential equations, making it easier to solve them
 library(ggplot2)

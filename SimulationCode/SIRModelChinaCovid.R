@@ -1,6 +1,6 @@
-
-install.packages("deSolve")
-install.packages("reshape2")
+#Uncomment if you need these packages
+#install.packages("deSolve")
+#install.packages("reshape2")
 library("deSolve")
 #this is a package that is used to help solve differential equations, making it easier to solve them
 library(ggplot2)
@@ -11,7 +11,7 @@ library(reshape2)
 getwd()
 #Double checking where we are and making sure that access the right file.
 
-covid_numbers <- read.csv("C:/Users/Roger/Desktop/CSE310/RSimulationModel/SimulationCode/covid_19_data.csv", header = TRUE, sep = ",")
+covid_numbers <- read.csv("covid_19_data.csv", header = TRUE, sep = ",", header = TRUE, sep = ",")
 #Creates a list using a CSV file for that Dataframe. Which we are going to use for our Covid Numbers
 
 data.frame(covid_numbers)
@@ -78,7 +78,7 @@ sir_values_1 <- as.data.frame(ode(
 
 sir_value_1_full <- melt(as.data.frame(sir_values_1), id="time")
 sir_value_1_full
-sir_values_1 <- data.frame(sir_values_1)
+# sir_values_1 <- data.frame(sir_values_1) # Removed redundant conversion
 
 x_axis <- "Time in Days"
 y_axis <- "Number of People"
