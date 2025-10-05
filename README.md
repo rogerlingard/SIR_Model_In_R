@@ -8,8 +8,8 @@ My purpose for doing this project was because I wanted to see how useful R could
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-[Quick view and explanation of my SIR model R code](https://youtu.be/rXy3Tj8AtMU)
-[In-depth view of my SIR model R code](https://youtu.be/o8ltDBjpiq0)
+- [Quick view and explanation of my SIR model R code](https://youtu.be/rXy3Tj8AtMU)
+- [In-depth view of my SIR model R code](https://youtu.be/o8ltDBjpiq0)
 # Development Environment
 
 R Studio
