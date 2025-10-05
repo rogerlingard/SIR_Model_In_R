@@ -11,7 +11,6 @@ library(ggplot2)
 #this is a package that is going to help with graphing our SIR model.
 library(reshape2)
 
-
 getwd()
 #Double checking where we are and making sure that access the right file.
 
